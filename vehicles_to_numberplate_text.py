@@ -6,16 +6,9 @@ import pandas as pd
 from openpyxl import load_workbook
 from openpyxl.styles import Font
 
-
-
 # Load the models
 number_plate_model = YOLO('customYOLO.pt')
 character_model = YOLO('best_char_1630.pt')
-
-# Define the folder to save number plate images
-save_folder = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\NumberPlate_detection\only_vehicle_images\1_Evening_images_100\numberplates"
-os.makedirs(save_folder, exist_ok=True)
-
 
 def plot_results(img, results, model, color=(255, 0, 0)):
     # Loop through results
@@ -55,7 +48,6 @@ def detect_characters(number_plate_img):
         #print(f'{label} - Coordinates: {coordinates}')
         plate_text += label
     print(f"Vehicle number plate: {plate_text}")
-
     return plate_text
 
 def process_image(img_path, save_folder):
@@ -134,5 +126,10 @@ def process_folder(folder_path):
              cell.font = Font(color="0000FF", underline="single")
     workbook.save(excel_path)
 
-folder_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\NumberPlate_detection\only_vehicle_images\1_Evening_images_100\vehicles"
+
+# Define the folder to save number plate images
+save_folder = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_video\numberplates_images"
+os.makedirs(save_folder, exist_ok=True)
+
+folder_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_video\numberplates_images"
 process_folder(folder_path)
