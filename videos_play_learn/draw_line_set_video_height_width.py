@@ -17,12 +17,16 @@ if not cap.isOpened():
 
 # Get the video's frame rate
 fps = cap.get(cv2.CAP_PROP_FPS)
-print(fps,'fps')
+print(fps, 'fps')
 frame_duration = 1 / fps  # Duration of each frame in seconds
 
 # Read and display the video frames
 start_time = time.time()
 frame_count = 0
+
+# Define the desired window size (you can adjust these values)
+screen_width = 1080  # Desired width of the video window
+screen_height = 680  # Desired height of the video window
 
 while cap.isOpened():
     ret, frame = cap.read()  # Read a frame from the video
@@ -30,8 +34,11 @@ while cap.isOpened():
     if not ret:
         break  # Exit the loop when the video ends
 
+    # Resize the frame to fit the screen
+    resized_frame = cv2.resize(frame, (screen_width, screen_height))
+
     # Display the frame
-    cv2.imshow('Video', frame)
+    cv2.imshow('Video', resized_frame)
 
     # Calculate the time to wait until the next frame
     frame_count += 1
