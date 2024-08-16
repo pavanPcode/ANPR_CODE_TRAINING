@@ -25,8 +25,7 @@ def plot_results(img_path, results):
   plt.axis('off')
   plt.show()
 
-img_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\NumberPlate_detection\only_vehicle_images\7_Afternoon_Images\VI_91727_2024-05-271305.jpg"
-
+img_path = r"1.jpg"
 results = model(img_path)
 plot_results(img_path, results)
 

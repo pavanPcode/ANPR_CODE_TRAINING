@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 model = YOLO('best_char_1630.pt')
 
 #img_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\test_char_recognition\NumberPlatesForTesting\1\part1-input\000000144.jpg"
-img_path = r"C:\Users\ADMIN\Downloads\1.jpg"
+img_path = r"number_plate_729_460.jpg"
 results = model(img_path)
 
 def plot_results(img_path, results):
@@ -37,8 +37,9 @@ def plot_results(img_path, results):
     for x1, y1, x2, y2, conf, cls in boxes_list:
         cv2.rectangle(img, (x1, y1), (x2, y2), (255, 0, 0), 2)
         label = f'{model.names[int(cls)]:{conf:.2f}}'
+        label_acaracy = f'{model.names[int(cls)]}:{conf:.2f}'
         coordinates = f'({x1}, {y1}), ({x2}, {y2})'
-        print(f'{label} - Coordinates: {coordinates}')
+        print(f'{label} - acaracy: {label_acaracy} -  Coordinates: {coordinates}')
         cv2.putText(img, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
         plate_text  += label
     print(f"vehicle_numberplate : {plate_text}")

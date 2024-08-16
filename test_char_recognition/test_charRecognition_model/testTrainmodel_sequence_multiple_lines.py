@@ -3,10 +3,10 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the YOLO model
-model = YOLO('best.pt')
+model = YOLO('best_char_1630.pt')
 
 # Image path
-img_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\test_char_recognition\NumberPlatesForTesting\1\part1-input\twoline.jpg"
+img_path = r"img.png"
 
 # Run inference
 results = model(img_path)
