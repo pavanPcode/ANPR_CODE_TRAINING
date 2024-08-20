@@ -105,7 +105,6 @@ def extract_frames(video_path, output_folder, frame_interval=30):
                     cv2.putText(frame, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
                     # Extract the number plate image from the frame
                     number_plate_img = frame[y1:y2, x1:x2]
-
                     extracted_count += 1
                     #char_detect(number_plate_img, frame, extracted_count)
                     # Create threads with arguments
@@ -129,6 +128,7 @@ def extract_frames(video_path, output_folder, frame_interval=30):
 
 # Usage
 video_path = r"C:\Users\ADMIN\Desktop\PAVAN\recodeing\license_plate.mp4"
+
 output_folder = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp_test\numberplates_images7"
 frame_interval = 60  # Change this to save a different number of frames per second
 
