@@ -135,4 +135,34 @@ frame_interval = 60  # Change this to save a different number of frames per seco
 # Create the output folder if it doesn't exist
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
+
+# Global variables to store rectangle coordinates and control flow
+drawing = False  # True if the mouse is pressed
+ix, iy = -1, -1  # Initial coordinates
+x1, y1, x2, y2 = 0, 0, 0, 0  # Rectangle coordinates
+rectangle_drawn = False  # Flag to check if the rectangle is drawn and fixed
+play_video = False  # Flag to control video playback
+
+everyframe_frame = r"saved_frames"
+# Create the save folder if it doesn't exist
+if not os.path.exists(everyframe_frame):
+    os.makedirs(everyframe_frame)
+def draw_rectangle(event, x, y, flags, param):
+    global ix, iy, drawing, x1, y1, x2, y2, rectangle_drawn
+
+    if event == cv2.EVENT_LBUTTONDOWN and not rectangle_drawn:
+        drawing = True
+        ix, iy = x, y
+
+    elif event == cv2.EVENT_MOUSEMOVE and drawing:
+        x1, y1, x2, y2 = ix, iy, x, y
+
+    elif event == cv2.EVENT_LBUTTONUP:
+        if drawing:
+            drawing = False
+            x1, y1, x2, y2 = ix, iy, x, y
+            rectangle_drawn = True  # Fix the rectangle so it can't be edited
+            print(f"Rectangle coordinates fixed: ({x1}, {y1}), ({x2}, {y2})")
+
+
 extract_frames(video_path, output_folder, frame_interval)

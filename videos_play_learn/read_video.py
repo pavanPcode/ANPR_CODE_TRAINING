@@ -4,7 +4,7 @@ import time
 
 # Path to your video file
 video_path = r"C:\Users\ADMIN\Desktop\PAVAN\recodeing\sample.mp4"
-
+video_path = "rtsp://admin:P3r3nni@l@192.168.1.250:554/cam/realmonitor?channel=1&subtype=0"
 print('start', datetime.datetime.now())
 
 # Open the video file
