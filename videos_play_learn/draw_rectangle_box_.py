@@ -32,6 +32,7 @@ def draw_rectangle(event, x, y, flags, param):
             x1, y1, x2, y2 = ix, iy, x, y
             rectangle_drawn = True  # Fix the rectangle so it can't be edited
             print(f"Rectangle coordinates fixed: ({x1}, {y1}), ({x2}, {y2})")
+            return x1, y1, x2, y2
 
 # Open the video file
 cap = cv2.VideoCapture(video_path)
