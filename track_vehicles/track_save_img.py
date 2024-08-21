@@ -9,7 +9,7 @@ model = YOLO('yolov8n.pt')
 
 # Set the RTSP stream path or video path
 video_path = "rtsp://admin:P3r3nni@l@192.168.1.250:554/cam/realmonitor?channel=1&subtype=0"
-
+video_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp_test\not_veh.mp4"
 # Initialize the video stream (0 for default webcam, or use the video file path)
 video_stream = cv2.VideoCapture(video_path)
 video_stream.set(cv2.CAP_PROP_BUFFERSIZE, 1)
@@ -46,7 +46,7 @@ while True:
     if frame_count % frames_to_skip == 0:
         # Run YOLOv8 inference on the frame
         results = model(frame)
-
+        print('start', datetime.now(),frame_count)
         # Extract the predictions
         predictions = results[0]
 
