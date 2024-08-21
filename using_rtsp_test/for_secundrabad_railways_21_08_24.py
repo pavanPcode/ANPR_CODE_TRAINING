@@ -237,9 +237,9 @@ def selected_coordinates(video_path):
 
 
 # Usage
-video_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp_test\not_veh.mp4"
+video_path = r"C:\Users\ADMIN\Desktop\PAVAN\recodeing\cars.mp4"
 #video_path = "rtsp://admin:P3r3nni@l@192.168.1.250:554/cam/realmonitor?channel=1&subtype=0"
-output_folder = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp_test\numberplates_images10"
+output_folder = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp_test\numberplates_images1"
 frame_interval = 60  # Change this to save a different number of frames per second
 
 # Create the output folder if it doesn't exist
