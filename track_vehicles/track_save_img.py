@@ -6,13 +6,16 @@ from datetime import datetime
 
 # Load the YOLOv8 model
 model = YOLO('yolov8n.pt')
-video_path = r"C:\Users\ADMIN\Desktop\PAVAN\recodeing\cars.mp4"
+
+# Set the RTSP stream path or video path
+video_path = "rtsp://admin:P3r3nni@l@192.168.1.250:554/cam/realmonitor?channel=1&subtype=0"
 
 # Initialize the video stream (0 for default webcam, or use the video file path)
 video_stream = cv2.VideoCapture(video_path)
+video_stream.set(cv2.CAP_PROP_BUFFERSIZE, 1)
 
 # Folder where you want to save the output images
-output_folder = 'path_to_your_output_folder'
+output_folder = r'path_to_your_output_folder'
 os.makedirs(output_folder, exist_ok=True)
 
 # Set the desired frames per second (FPS) rate
@@ -20,10 +23,9 @@ desired_fps = 1  # Adjust this value to process more or fewer frames per second
 
 # Get the original frames per second (FPS) of the video
 original_fps = video_stream.get(cv2.CAP_PROP_FPS)
-frames_to_skip = int(original_fps // desired_fps)
+frames_to_skip = int(original_fps // desired_fps) if original_fps > desired_fps else 1
 
 frame_count = 0
-start_time = time.time()
 
 # Set the desired window size
 window_name = 'YOLOv8 Vehicle Detection'
@@ -49,7 +51,7 @@ while True:
         predictions = results[0]
 
         # Draw the detected objects on the frame
-        for box in predictions.boxes.xyxy.cpu().numpy():  # Extract bounding box coordinates
+        for box in predictions.boxes.xyxy.cpu().numpy():
             x1, y1, x2, y2 = map(int, box[:4])  # Convert coordinates to integers
             cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
 

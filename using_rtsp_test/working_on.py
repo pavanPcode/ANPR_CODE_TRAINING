@@ -6,7 +6,7 @@ import threading
 import openpyxl
 from openpyxl.drawing.image import Image
 from openpyxl.styles import Font
-
+import time
 # Create a new workbook and select the active worksheet
 workbook = openpyxl.Workbook()
 worksheet = workbook.active
@@ -88,6 +88,7 @@ def extract_frames(video_path, output_folder, selected_data,frame_interval=30):
             break
         cropedframe = frame[selected_data['orig_y1']:selected_data['orig_y2'],
                 selected_data['orig_x1']:selected_data['orig_x2']]
+        cv2.imshow('Cropped Frame', cropedframe)
 
         # Resize the frame for display purposes
         screen_width = 1080
@@ -98,7 +99,7 @@ def extract_frames(video_path, output_folder, selected_data,frame_interval=30):
         if frame_count % frame_interval == 0:
             # Detect number plates
             print(datetime.now())
-            number_plate_results = number_plate_model(cropedframe)
+            number_plate_results = number_plate_model(cropedframe,conf=0.3)
             c = 0
             for result in number_plate_results:
                 print(c,'check')
@@ -121,6 +122,13 @@ def extract_frames(video_path, output_folder, selected_data,frame_interval=30):
                     print(datetime.now(),extracted_count)
                     c = 1
                 break
+
+        # Get the current time with seconds
+        current_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+
+        # Display the current time on the resized frame
+        cv2.putText(resized_frame, current_time, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+
         # Display the frame
         cv2.imshow('Video', resized_frame)
         # Break the loop if 'q' is pressed
@@ -225,11 +233,11 @@ def selected_coordinates(video_path):
     # Release the video capture object and close the display window
     cap.release()
     cv2.destroyAllWindows()
-    return {'orig_x1':orig_x1,'orig_y1':orig_y1,'orig_x2':orig_x2, 'orig_y2':orig_x2}
+    return {'orig_x1':orig_x1,'orig_y1':orig_y1,'orig_x2':orig_x2, 'orig_y2':orig_y2}
 
 
 # Usage
-video_path = r"C:\Users\ADMIN\Desktop\PAVAN\recodeing\sample.mp4"
+video_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp_test\not_veh.mp4"
 #video_path = "rtsp://admin:P3r3nni@l@192.168.1.250:554/cam/realmonitor?channel=1&subtype=0"
 output_folder = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp_test\numberplates_images10"
 frame_interval = 60  # Change this to save a different number of frames per second
