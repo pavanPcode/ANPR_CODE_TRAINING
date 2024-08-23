@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 model = YOLO('best_char_1630.pt')
 
 # Load your image
-img_path = r"img.png"
+img_path = r"number_plate_729_460.jpg"
 results = model(img_path)
 
 
