@@ -105,7 +105,7 @@ def char_detect(number_plate_img,frame,extracted_count):
                 best_conf = conf
                 previous_coords = current_coords
 
-            print(f"co ord : {current_coords}, Character: {char}, Confidence: {conf:.2f}")
+            #print(f"co ord : {current_coords}, Character: {char}, Confidence: {conf:.2f}")
 
         # Append the best character for the last group of coordinates
         if best_char:
@@ -195,11 +195,11 @@ def extract_frames(video_path, output_folder, selected_data,frame_interval=30):
                     number_plate_img = cropedframe[y1:y2, x1:x2]
 
                     extracted_count += 1
-                    #char_detect(number_plate_img, frame, extracted_count)
-                    # Create threads with arguments
+                    # # Create threads with arguments
                     thread1 = threading.Thread(target=char_detect, args=(number_plate_img, cropedframe, extracted_count))
                     # Start threads
                     thread1.start()
+                    #char_detect(number_plate_img, cropedframe, extracted_count)
                     print(datetime.now(),extracted_count)
                     c = 1
                 break
@@ -318,7 +318,7 @@ def selected_coordinates(video_path):
 
 
 # Usage
-video_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp\license_plate.mp4"
+video_path = r"C:\Users\ADMIN\Downloads\recodeing\license_plate.mp4"
 #video_path = "rtsp://admin:P3r3nni@l@192.168.1.250:554/cam/realmonitor?channel=1&subtype=0"
 output_folder = r"numberplates_images3"
 frame_interval = 60  # Change this to save a different number of frames per second

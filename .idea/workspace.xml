@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b01d8ba-701b-4dee-8bef-b9f5c89bdec4" name="Changes" comment="multi_line_code_">
-      <change afterPath="$PROJECT_DIR$/using_rtsp/save_in_database/database_script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/using_rtsp/save_in_excel/numberplates_images3/vehicle_data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_database/workingon_live.py" beforeDir="false" afterPath="$PROJECT_DIR$/using_rtsp/save_in_database/workingon_live.py" afterDir="false" />
+    <list default="true" id="1b01d8ba-701b-4dee-8bef-b9f5c89bdec4" name="Changes" comment="doc">
+      <change afterPath="$PROJECT_DIR$/videos_play_learn/t123.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_excel/cropped_images/cropped_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_excel/numberplates_images3/NP_frame_0001_LS15EBC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_excel/numberplates_images3/NP_frame_0002_LS15EBC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_excel/numberplates_images3/NP_frame_0003_LS15EBC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_excel/numberplates_images3/VI_frame_0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_excel/numberplates_images3/VI_frame_0002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_excel/numberplates_images3/VI_frame_0003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_excel/numberplates_images3/vehicle_data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_excel/workingon_live.py" beforeDir="false" afterPath="$PROJECT_DIR$/using_rtsp/save_in_excel/workingon_live.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.db_mysql.executor": "Run",
+    "Python.del_test123.executor": "Run",
     "Python.detect_vehicleNumberPlate_Image (1).executor": "Run",
     "Python.detect_vehicleNumberPlate_Image (2).executor": "Run",
     "Python.detect_vehicleNumberPlate_Image.executor": "Run",
@@ -75,28 +84,30 @@
     "Python.vehicles_to_numberplate_text.executor": "Run",
     "Python.working_on (1).executor": "Run",
     "Python.working_on.executor": "Run",
+    "Python.workingon_live (1).executor": "Run",
     "Python.workingon_live.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ADMIN/Desktop/NumberPlate_dataset/Anpr_Code/using_rtsp",
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/NumberPlate_dataset/Anpr_Code/using_rtsp/save_in_database",
     "two.files.diff.last.used.file": "C:/Users/ADMIN/Desktop/NumberPlate_dataset/Anpr_Code/using_rtsp/for_secundrabad_railways_21_08_24.py"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp" />
       <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp\save_in_database" />
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp" />
       <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\test_char_recognition\test_charRecognition_model" />
       <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\NumberPlate_detection" />
       <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\rtsp_tested_data\Anpr_code_test_secParking_21-08-2024" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\videos_play_learn" />
       <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\rtsp_tested_data" />
       <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp_test" />
       <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_video" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.workingon_live">
+  <component name="RunManager" selected="Python.del_test123">
     <configuration name="db_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anpr_Code" />
       <option name="ENV_FILES" value="" />
@@ -119,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testTrainmodel_sequence_1_line" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="del_test123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anpr_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model/testTrainmodel_sequence_1_line.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/del_test123.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t123" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anpr_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,11 +161,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/videos_play_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model/test_final.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/videos_play_learn/t123.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testmultylinecode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="workingon_live (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anpr_Code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,11 +183,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/using_rtsp/save_in_excel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model/testmultylinecode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/using_rtsp/save_in_excel/workingon_live.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.del_test123" />
+        <item itemvalue="Python.workingon_live (1)" />
+        <item itemvalue="Python.t123" />
         <item itemvalue="Python.workingon_live" />
         <item itemvalue="Python.db_mysql" />
-        <item itemvalue="Python.testmultylinecode" />
-        <item itemvalue="Python.test_final" />
-        <item itemvalue="Python.testTrainmodel_sequence_1_line" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +388,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724482671202</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="doc">
+      <option name="closed" value="true" />
+      <created>1724492018136</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724492018136</updated>
+    </task>
+    <task id="LOCAL-00020" summary="doc">
+      <option name="closed" value="true" />
+      <created>1724492085063</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1724492085063</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -388,6 +415,7 @@
     <MESSAGE value="track_vehicle" />
     <MESSAGE value="secundrabad_images" />
     <MESSAGE value="multi_line_code_" />
-    <option name="LAST_COMMIT_MESSAGE" value="multi_line_code_" />
+    <MESSAGE value="doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc" />
   </component>
 </project>
