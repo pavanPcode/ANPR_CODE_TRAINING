@@ -54,7 +54,7 @@ def char_detect(number_plate_img,frame,extracted_count):
     for box in boxes_list:
         x1, y1, x2, y2, conf, cls, = box[:6]
         # print("y_threshold:", y_threshold)
-        if last_y == 1 or abs(y1 - last_y) < 10:  # Use height to distinguish lines
+        if last_y == 1 or abs(y1 - last_y) < y_threshold:  # Use height to distinguish lines
             current_line.append(box)
         else:
             # If a new line is detected, sort the current line by x1 and store it
@@ -284,7 +284,7 @@ def selected_coordinates(video_path):
 
 
 # Usage
-video_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp\license_plate.mp4"
+video_path = r"C:\Users\ADMIN\Downloads\recodeing\cars.mp4"
 #video_path = "rtsp://admin:P3r3nni@l@192.168.1.250:554/cam/realmonitor?channel=1&subtype=0"
 output_folder = r"numberplates_images3"
 frame_interval = 60  # Change this to save a different number of frames per second
