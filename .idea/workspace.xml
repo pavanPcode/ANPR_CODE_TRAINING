@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b01d8ba-701b-4dee-8bef-b9f5c89bdec4" name="Changes" comment="multi_line_code_">
+      <change afterPath="$PROJECT_DIR$/using_rtsp/save_in_database/database_script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/using_rtsp/save_in_excel/numberplates_images3/vehicle_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/using_rtsp/save_in_database/workingon_live.py" beforeDir="false" afterPath="$PROJECT_DIR$/using_rtsp/save_in_database/workingon_live.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pavanPcode&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pavanPcode/ANPR_CODE_TRAINING.git&quot;,
+    &quot;accountId&quot;: &quot;c4e0004f-c6a7-4616-ad34-4d245de190bc&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/track_vehicles/track_save_img.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kHa1fOW27FYwOatzZu4q0zsX6U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.db_mysql.executor": "Run",
+    "Python.detect_vehicleNumberPlate_Image (1).executor": "Run",
+    "Python.detect_vehicleNumberPlate_Image (2).executor": "Run",
+    "Python.detect_vehicleNumberPlate_Image.executor": "Run",
+    "Python.detect_vehicleNumberPlate_Image_2threads.executor": "Run",
+    "Python.draw_line_set_video_height_width (1).executor": "Run",
+    "Python.draw_line_set_video_height_width.executor": "Run",
+    "Python.draw_rectangle_box_ (1).executor": "Run",
+    "Python.for_secundrabad_railways_21_08_24 (1).executor": "Run",
+    "Python.for_secundrabad_railways_21_08_24.executor": "Run",
+    "Python.mulitple_detection_in_single_object.executor": "Run",
+    "Python.read_video.executor": "Run",
+    "Python.t112.executor": "Run",
+    "Python.t123 (1).executor": "Run",
+    "Python.t123.executor": "Run",
+    "Python.t1234.executor": "Run",
+    "Python.t2.executor": "Run",
+    "Python.testTrainmodel.executor": "Run",
+    "Python.testTrainmodel_sequence_1_line.executor": "Run",
+    "Python.testTrainmodel_sequence_multiple_lines.executor": "Run",
+    "Python.test_final.executor": "Run",
+    "Python.testmultylinecode.executor": "Run",
+    "Python.track_save_img.executor": "Run",
+    "Python.vehicles_to_numberplate_text.executor": "Run",
+    "Python.working_on (1).executor": "Run",
+    "Python.working_on.executor": "Run",
+    "Python.workingon_live.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/NumberPlate_dataset/Anpr_Code/using_rtsp",
+    "two.files.diff.last.used.file": "C:/Users/ADMIN/Desktop/NumberPlate_dataset/Anpr_Code/using_rtsp/for_secundrabad_railways_21_08_24.py"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp" />
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp\save_in_database" />
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\test_char_recognition\test_charRecognition_model" />
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\NumberPlate_detection" />
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\rtsp_tested_data\Anpr_code_test_secParking_21-08-2024" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\rtsp_tested_data" />
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_rtsp_test" />
+      <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_video" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.workingon_live">
+    <configuration name="db_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Anpr_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/using_rtsp/save_in_database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/using_rtsp/save_in_database/db_mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testTrainmodel_sequence_1_line" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Anpr_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model/testTrainmodel_sequence_1_line.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Anpr_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model/test_final.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testmultylinecode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Anpr_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model/testmultylinecode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="workingon_live" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Anpr_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/using_rtsp/save_in_database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/using_rtsp/save_in_database/workingon_live.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.workingon_live" />
+        <item itemvalue="Python.db_mysql" />
+        <item itemvalue="Python.testmultylinecode" />
+        <item itemvalue="Python.test_final" />
+        <item itemvalue="Python.testTrainmodel_sequence_1_line" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b01d8ba-701b-4dee-8bef-b9f5c89bdec4" name="Changes" comment="" />
+      <created>1722942741445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722942741445</updated>
+    </task>
+    <task id="LOCAL-00001" summary="VIDEOS_FRAME">
+      <option name="closed" value="true" />
+      <created>1723035590438</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723035590438</updated>
+    </task>
+    <task id="LOCAL-00002" summary="VIDEOS_FRAME">
+      <option name="closed" value="true" />
+      <created>1723809417892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723809417892</updated>
+    </task>
+    <task id="LOCAL-00003" summary="VIDEOS_FRAME">
+      <option name="closed" value="true" />
+      <created>1723811524166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723811524166</updated>
+    </task>
+    <task id="LOCAL-00004" summary="draw box">
+      <option name="closed" value="true" />
+      <created>1723813615811</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723813615811</updated>
+    </task>
+    <task id="LOCAL-00005" summary="draw box and save">
+      <option name="closed" value="true" />
+      <created>1724153460270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724153460270</updated>
+    </task>
+    <task id="LOCAL-00006" summary="draw box and save">
+      <option name="closed" value="true" />
+      <created>1724153943447</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724153943447</updated>
+    </task>
+    <task id="LOCAL-00007" summary="final">
+      <option name="closed" value="true" />
+      <created>1724157934725</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724157934725</updated>
+    </task>
+    <task id="LOCAL-00008" summary="final">
+      <option name="closed" value="true" />
+      <created>1724159576560</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724159576560</updated>
+    </task>
+    <task id="LOCAL-00009" summary="track_vehicle">
+      <option name="closed" value="true" />
+      <created>1724219569152</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724219569152</updated>
+    </task>
+    <task id="LOCAL-00010" summary="track_vehicle">
+      <option name="closed" value="true" />
+      <created>1724222210196</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724222210196</updated>
+    </task>
+    <task id="LOCAL-00011" summary="track_vehicle">
+      <option name="closed" value="true" />
+      <created>1724223038022</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724223038022</updated>
+    </task>
+    <task id="LOCAL-00012" summary="track_vehicle">
+      <option name="closed" value="true" />
+      <created>1724223233616</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724223233616</updated>
+    </task>
+    <task id="LOCAL-00013" summary="track_vehicle">
+      <option name="closed" value="true" />
+      <created>1724249319863</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724249319863</updated>
+    </task>
+    <task id="LOCAL-00014" summary="secundrabad_images">
+      <option name="closed" value="true" />
+      <created>1724309202202</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724309202202</updated>
+    </task>
+    <task id="LOCAL-00015" summary="secundrabad_images">
+      <option name="closed" value="true" />
+      <created>1724309699209</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724309699209</updated>
+    </task>
+    <task id="LOCAL-00016" summary="secundrabad_images">
+      <option name="closed" value="true" />
+      <created>1724333521384</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724333521384</updated>
+    </task>
+    <task id="LOCAL-00017" summary="multi_line_code_">
+      <option name="closed" value="true" />
+      <created>1724411787932</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724411787932</updated>
+    </task>
+    <task id="LOCAL-00018" summary="multi_line_code_">
+      <option name="closed" value="true" />
+      <created>1724482671202</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1724482671202</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="VIDEOS_FRAME" />
+    <MESSAGE value="draw box" />
+    <MESSAGE value="draw box and save" />
+    <MESSAGE value="final" />
+    <MESSAGE value="track_vehicle" />
+    <MESSAGE value="secundrabad_images" />
+    <MESSAGE value="multi_line_code_" />
+    <option name="LAST_COMMIT_MESSAGE" value="multi_line_code_" />
+  </component>
+</project>
