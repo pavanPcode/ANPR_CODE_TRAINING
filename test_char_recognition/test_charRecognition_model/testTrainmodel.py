@@ -24,7 +24,7 @@ def plot_results(img_path, results):
   plt.axis('off')
   plt.show()
 
-img_path = "number_plate_729_460.jpg"
+img_path = r"888.jpg"
 
 results = model(img_path)
 plot_results(img_path, results)

@@ -27,5 +27,5 @@ def single_line_char_detect(number_plate_img):
         plate_text += character_model.names[cls]
     print(f"Vehicle number plate: {plate_text}")
 
-number_plate_img = "88.jpeg"
+number_plate_img = "888.jpeg"
 single_line_char_detect(number_plate_img)

@@ -99,7 +99,7 @@ def plot_results(img_path, results):
     final_plate_text = final_plate_text.strip()
     print(f"Vehicle number plate: {final_plate_text}")
 
-img_path = r"666.jpg"
+img_path = r"888.jpg"
 # Run inference
 results = model(img_path)
 # Call the function to process and display the results

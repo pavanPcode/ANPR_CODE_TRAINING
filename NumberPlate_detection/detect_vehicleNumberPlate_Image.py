@@ -25,7 +25,7 @@ def plot_results(img_path, results):
   plt.axis('off')
   plt.show()
 
-img_path = r"1.jpg"
+img_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\test_char_recognition\test_charRecognition_model\888.jpg"
 results = model(img_path)
 plot_results(img_path, results)
 

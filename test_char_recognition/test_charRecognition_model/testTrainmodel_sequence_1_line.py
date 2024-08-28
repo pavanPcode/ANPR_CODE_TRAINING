@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 model = YOLO('best_char_1630.pt')
 
 #img_path = r"C:\Users\ADMIN\Desktop\NumberPlate_dataset\test_char_recognition\NumberPlatesForTesting\1\part1-input\000000144.jpg"
-img_path = r"22.jpg"
+img_path = r"888.jpg"
 results = model(img_path)
 
 def plot_results(img_path, results):

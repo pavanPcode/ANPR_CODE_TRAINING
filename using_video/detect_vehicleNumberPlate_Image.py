@@ -4,7 +4,7 @@ from ultralytics import YOLO
 from datetime import datetime
 import random
 
-# Load the YOLO model
+# Load the YOLO model#
 number_plate_model = YOLO('customYOLO.pt')
 character_model = YOLO('best_char_1630.pt')
 
