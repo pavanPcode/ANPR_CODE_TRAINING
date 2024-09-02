@@ -1,21 +1,21 @@
 import os
+from PIL import Image
 
-def check_images_for_txt_files(folder_path):
-    # Get list of all files in the folder
-    files_in_folder = os.listdir(folder_path)
-    
-    # Filter out jpg and png files
-    image_files = [file for file in files_in_folder if file.lower().endswith(('.jpg', '.png'))]
-    
-    for image_file in image_files:
-        # Construct the corresponding txt file name
-        txt_file = os.path.splitext(image_file)[0] + '.txt'
-        # Check if the txt file exists in the folder
-        if txt_file not in files_in_folder:
-            print(f"Text file for image '{image_file}' does not exist.")
+def compress_images_in_folder(input_folder, output_folder, quality=30):
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
-# Specify the path to your folder
-folder_path = r'C:\Users\ADMIN\Desktop\NumberPlate_dataset\Img_divided_part\part1 -pavan - FINAL'
+    for filename in os.listdir(input_folder):
+        if filename.lower().endswith((".jpg", ".jpeg")):  # Adjust for formats
+            input_path = os.path.join(input_folder, filename)
+            output_path = os.path.join(output_folder, filename)
 
-# Call the function
-check_images_for_txt_files(folder_path)
+            img = Image.open(input_path)
+            img.save(output_path, optimize=True, quality=quality)
+
+            final_size = os.path.getsize(output_path) / 1024  # in KB
+            print(f"Compressed {filename} to {final_size:.2f} KB")
+
+input_folder = r"C:\Users\ADMIN\Desktop\vehicle_trained_dataset\images_parts\Indian Number Plates.v7i.yolov8\valid\images"
+output_folder = r"C:\Users\ADMIN\Desktop\vehicle_trained_dataset\images_parts\Indian Number Plates.v7i.yolov8\valid"
+compress_images_in_folder(input_folder, output_folder, quality=30)
