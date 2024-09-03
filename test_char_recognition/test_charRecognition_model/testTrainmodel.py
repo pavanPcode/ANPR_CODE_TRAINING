@@ -24,7 +24,7 @@ def plot_results(img_path, results):
   plt.axis('off')
   plt.show()
 
-img_path = r"888.jpg"
+img_path = r"C:\Users\ADMIN\Desktop\Anpr_traning_pavan\Anpr_Code\NumberPlate_detection\21.jpg"
 
 results = model(img_path)
 plot_results(img_path, results)
