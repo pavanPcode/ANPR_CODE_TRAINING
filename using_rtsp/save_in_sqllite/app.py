@@ -288,7 +288,7 @@ def selected_coordinates(video_path):
 
 # Usage
 video_path = r"C:\Users\ADMIN\Downloads\recodeing\cars.mp4"
-#video_path = "rtsp://admin:P3r3nni@l@192.168.1.250:554/cam/realmonitor?channel=1&subtype=0"
+video_path = "rtsp://admin:P3r3nni@l@192.168.1.250:554/cam/realmonitor?channel=1&subtype=0"
 output_folder = r"C:\Users\ADMIN\Desktop\Anpr_traning_pavan\Anpr_Code\using_rtsp\save_in_sqllite\numberplates_images3"
 frame_interval = 30  # Change this to save a different number of frames per second
 

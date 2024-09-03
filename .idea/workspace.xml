@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b01d8ba-701b-4dee-8bef-b9f5c89bdec4" name="Changes" comment="doc">
+    <list default="true" id="1b01d8ba-701b-4dee-8bef-b9f5c89bdec4" name="Changes" comment="added sqlite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumberPlate_detection/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/NumberPlate_detection/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model/testTrainmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_char_recognition/test_charRecognition_model/testTrainmodel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.app.executor": "Run",
     "Python.db_mysql.executor": "Run",
     "Python.del_test123.executor": "Run",
     "Python.detect_vehicleNumberPlate_Image (1).executor": "Run",
@@ -85,7 +84,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ADMIN/Desktop/facecode",
+    "last_opened_file_path": "C:/pavan/Anpr_traning_pavan/Anpr_Code",
     "two.files.diff.last.used.file": "C:/Users/ADMIN/Desktop/NumberPlate_dataset/Anpr_Code/using_rtsp/for_secundrabad_railways_21_08_24.py"
   }
 }]]></component>
@@ -105,7 +104,29 @@
       <recent name="C:\Users\ADMIN\Desktop\NumberPlate_dataset\Anpr_Code\using_video" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testTrainmodel">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Anpr_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/using_rtsp/save_in_sqllite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/using_rtsp/save_in_sqllite/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="find_missed_txt_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anpr_Code" />
       <option name="ENV_FILES" value="" />
@@ -142,28 +163,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/using_rtsp/for_secundrabad_railways_21_08_24.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="t386" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Anpr_Code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t386.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.testTrainmodel" />
         <item itemvalue="Python.for_secundrabad_railways_21_08_24" />
         <item itemvalue="Python.workingon_live" />
         <item itemvalue="Python.find_missed_txt_images" />
-        <item itemvalue="Python.t386" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +417,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724825435053</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added sqlite">
+      <option name="closed" value="true" />
+      <created>1725340086895</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1725340086895</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -430,6 +437,7 @@
     <MESSAGE value="secundrabad_images" />
     <MESSAGE value="multi_line_code_" />
     <MESSAGE value="doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc" />
+    <MESSAGE value="added sqlite" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sqlite" />
   </component>
 </project>
